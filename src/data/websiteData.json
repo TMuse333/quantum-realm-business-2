@@ -1,0 +1,222 @@
+{
+  "templateName": "template1",
+  "websiteName": "Quantum Realm business 2",
+  "status": "draft",
+  "createdAt": "2025-10-21T00:00:00.000Z",
+  "updatedAt": "2025-10-21T00:00:00.000Z",
+  "formData": {
+    "businessName": {
+      "answer": "Quantum Realm Mastery"
+    },
+    "tagline": {
+      "answer": "Master the Quantum Realm of Existence"
+    },
+    "cta": {
+      "answer": "Join Us",
+      "component": "landingNavbar"
+    }
+  },
+  "pages": [
+    {
+      "components": [
+        {
+          "id": "landingNavbar-0",
+          "type": "landingNavbar",
+          "order": 0,
+          "componentCategory": "navbar",
+          "props": {
+            "logoText": "Quantum Realm Mastery",
+            "logoAlt": "Quantum Realm Mastery Logo",
+            "sticky": true,
+            "alignment": "left",
+            "buttonText": "Join Us",
+            "ctaDestination": "/join",
+            "array": [],
+            "mainColor": "#00ff99",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
+          }
+        },
+        {
+          "id": "auroraImageHero-1",
+          "type": "auroraImageHero",
+          "order": 1,
+          "componentCategory": "hero",
+          "props": {
+            "subTitle": "Unlock Your Potential",
+            "title": "Master the Quantum Realm of Existence",
+            "description": "Learn to navigate the quantum field where thoughts shape reality, blending science and spirituality for personal empowerment.",
+            "buttonText": "Get Started",
+            "array": [],
+            "mainColor": "#00ff99",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
+          }
+        },
+        {
+          "id": "imageTextBox-2",
+          "type": "imageTextBox",
+          "order": 2,
+          "componentCategory": "contentPiece",
+          "props": {
+            "title": "Transform Your Reality",
+            "description": "Discover hidden principles of quantum energy and consciousness through immersive lessons, guided meditations, and practical experiments.",
+            "buttonText": "Learn More",
+            "array": [],
+            "mainColor": "#00ff99",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
+          }
+        },
+        {
+          "id": "textAndList-3",
+          "type": "textAndList",
+          "order": 3,
+          "componentCategory": "textComponent",
+          "props": {
+            "subTitle": "Why Choose Us?",
+            "title": "Experience Quantum Transformation",
+            "description": "Our unique approach empowers you to reshape your destiny with proven techniques.",
+            "array": [
+              {
+                "title": "Cutting-edge Neuroscience",
+                "description": "Integrate the latest research in neuroscience to enhance your understanding of consciousness."
+              },
+              {
+                "title": "Ancient Wisdom",
+                "description": "Learn from timeless teachings that resonate with the principles of quantum theory."
+              },
+              {
+                "title": "Practical Experiments",
+                "description": "Engage in hands-on exercises that help you manifest your desired outcomes."
+              },
+              {
+                "title": "Guided Meditations",
+                "description": "Access meditative practices designed to elevate your awareness and energy."
+              },
+              {
+                "title": "Community Support",
+                "description": "Join a supportive community of like-minded individuals on your journey."
+              }
+            ],
+            "mainColor": "#00ff99",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
+          }
+        },
+        {
+          "id": "imageTextPoints-4",
+          "type": "imageTextPoints",
+          "order": 4,
+          "componentCategory": "contentPiece",
+          "props": {
+            "title": "Steps to Mastery",
+            "description": "Follow our structured approach to unlock the quantum potential within you.",
+            "buttonText": "Start Now",
+            "alt": "Visual Steps to Mastery",
+            "array": [
+              {
+                "title": "Self-Assessment",
+                "description": "Begin with understanding your vibrational patterns and goals."
+              },
+              {
+                "title": "Energy Elevation",
+                "description": "Engage in exercises to refine your energy and awareness."
+              },
+              {
+                "title": "Align Actions",
+                "description": "Learn to align your actions with the quantum flow for desired outcomes."
+              }
+            ],
+            "mainColor": "#00ff99",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
+          }
+        },
+        {
+          "id": "testimonials3-5",
+          "type": "testimonials3",
+          "order": 5,
+          "componentCategory": "testimonial",
+          "props": {
+            "title": "What Our Clients Say",
+            "description": "Hear from those who have experienced transformation through our unique teachings.",
+            "array": [
+              {
+                "name": "Alice Johnson",
+                "role": "Life Coach",
+                "quote": "Quantum Realm Mastery transformed my approach to reality! I now manifest with clarity."
+              },
+              {
+                "name": "Mark Smith",
+                "role": "Entrepreneur",
+                "quote": "The teachings here helped me reshape my business and personal life. Truly powerful!"
+              }
+            ],
+            "mainColor": "#00ff99",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
+          }
+        },
+        {
+          "id": "contactCloser-6",
+          "type": "contactCloser",
+          "order": 6,
+          "componentCategory": "footer",
+          "props": {
+            "title": "Ready to Transform Your Life?",
+            "description": "Unlock the secrets of the quantum realm and take the first step towards mastering your mind, body, and environment. Join us today and start your journey of self-discovery and empowerment.",
+            "buttonText": "Contact Us Now",
+            "array": [],
+            "mainColor": "#00ff99",
+            "textColor": "#ffffff",
+            "baseBgColor": "#000000",
+            "bgLayout": {
+              "type": "radial",
+              "radialSize": "125% 125%",
+              "radialPosition": "50% 0%",
+              "radialBaseStop": 50
+            }
+          }
+        }
+      ],
+      "text": []
+    }
+  ]
+}
